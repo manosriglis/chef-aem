@@ -1,3 +1,5 @@
+include_recipe "java"
+
 directory node['aem']['install_path'] do
   action :create
 end
